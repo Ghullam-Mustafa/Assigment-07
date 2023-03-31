@@ -2,11 +2,11 @@
 {
     var firstValue =+ prompt("Enter first value");
     var secondValue =+ prompt("Enter second value");
-    if (firstValue < secondValue){
-        console.log(secondValue);
+    if (firstValue > secondValue){
+        console.log(firstValue);
     }
     else {
-        console.log(firstValue);
+        console.log(secondValue);
     }
     
 }
