@@ -91,15 +91,26 @@
 
 // 6. Write a js program to check whether a year is leap year or not.
 
+// function evenodd(valueNumber) {
+//     if (valueNumber %4 == 0) {
+//         console.log(`${valueNumber} This year is leap year`);
+//     } else {
+//         console.log(`${valueNumber} This year is not leap year`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// evenodd(valueNumber)
+
+// ----------------------------------------------------------------------------------------
+// 7. Write a js program to check whether a character is alphabet or not.
+
+
 function evenodd(valueNumber) {
-    if (valueNumber %4 == 0) {
-        console.log(`${valueNumber} This year is leap year`);
+    if (valueNumber >='a' && 'z'>= valueNumber) {
+        console.log(`${valueNumber} This is alphabet chracter`);
     } else {
-        console.log(`${valueNumber} This year is not leap year`);
+        console.log(`${valueNumber} This is not alphabet chracter`);
     }
 }
 var valueNumber = prompt("Enter a value");
 evenodd(valueNumber)
-
-// ----------------------------------------------------------------------------------------
-
