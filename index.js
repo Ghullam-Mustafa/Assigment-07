@@ -152,18 +152,41 @@
 
 // 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
 
-function upperlover(valueNumber) {
-    if (valueNumber >= 'A' && 'Z' >= valueNumber) {
-        console.log(`${valueNumber} Upper case alphabet`);
-    }
-    else if (valueNumber >= 'a' && 'z' >= valueNumber) {
-        console.log(`${valueNumber} Lower case alphabet`);
-    }
-    else{
-        console.log(`${valueNumber} This is not alphabet`);
-    }
-}
-var valueNumber = prompt("Enter alphabet");
-upperlover(valueNumber)
+// function upperlover(valueNumber) {
+//     if (valueNumber >= 'A' && 'Z' >= valueNumber) {
+//         console.log(`${valueNumber} Upper case alphabet`);
+//     }
+//     else if (valueNumber >= 'a' && 'z' >= valueNumber) {
+//         console.log(`${valueNumber} Lower case alphabet`);
+//     }
+//     else{
+//         console.log(`${valueNumber} This is not alphabet`);
+//     }
+// }
+// var valueNumber = prompt("Enter alphabet");
+// upperlover(valueNumber)
 
 // ----------------------------------------------------------------
+
+// 11. Write a js program to input week number and print week day.
+
+
+// function week(daysWeek) {
+//     var totalDays = (daysWeek * 7);
+//     console.log(`This  ${daysWeek} week has ${totalDays} days`);
+// }
+// var daysWeek = prompt("Enter who's week");
+// week(daysWeek)
+
+// --------------------------------------------------------------------------
+
+// 12. Write a js program to input month number and print number of days in that month.
+
+function mounth(monthDay) {
+    var totalDays = (monthDay * 30);
+    console.log(`This ${monthDay} month has total days = ${totalDays} `);
+}
+var monthDay = prompt("Enter months");
+mounth(monthDay)
+
+// --------------------------------------------------------------------------------------
