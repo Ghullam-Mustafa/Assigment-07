@@ -60,18 +60,32 @@
 // 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
 
 
-function negativeorpositive(valueNumber) {
-    if (valueNumber %5 == 0) {
-        console.log(`${valueNumber} number is divided by 5` );
-    }
-    else if (valueNumber %11 == 0) {
-        console.log(`${valueNumber} number is divided by 11` );
-    }
-    else {
-        console.log(`${valueNumber} number is not divided` );
+// function negativeorpositive(valueNumber) {
+//     if (valueNumber %5 == 0) {
+//         console.log(`${valueNumber} number is divided by 5` );
+//     }
+//     else if (valueNumber %11 == 0) {
+//         console.log(`${valueNumber} number is divided by 11` );
+//     }
+//     else {
+//         console.log(`${valueNumber} number is not divided` );
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// negativeorpositive(valueNumber)
+
+// ----------------------------------------------------------------------------
+
+// 5. Write a js program to check whether a number is even or odd.
+function evenodd(valueNumber) {
+    if (valueNumber %2 == 0) {
+        console.log(`${valueNumber} your number is even`);
+    } else {
+        console.log(`${valueNumber} your number is odd`);
     }
 }
 var valueNumber = prompt("Enter a value");
-negativeorpositive(valueNumber)
+evenodd(valueNumber)
 
-// ----------------------------------------------------------------------------
+// ---------------------------------------------------------------------------------------
+
