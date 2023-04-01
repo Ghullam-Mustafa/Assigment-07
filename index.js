@@ -18,21 +18,7 @@
     
 // }
 // 2. Write a js program to find maximum between three numbers.
-// {
-// var oneValue =+ prompt("Enter first value");
-// var twoValue =+ prompt("Enter second value");
-// var anyValue = ("secndValue > firstValue");
-// var threeValue =+ prompt("Enter third value");
-// if (twoValue > oneValue){
-// console.log(oneValue );
-// }
-// else if  ( threeValue > anyValue) {
-//  console.log(twoValue);
-// }
-// else {
-//     console.log(threeValue);
-// }
-// }
+//
 
 function maximum(numb1 ,numb2 , numb3) {
     if (numb1 > numb2 && numb1 > numb3) {
