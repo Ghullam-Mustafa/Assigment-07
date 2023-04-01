@@ -41,18 +41,37 @@
 // -----------------------------------------------------------------------------------------
 
 // 3.Write a js program to check whether a number is negative, positive or zero.
+// function negativeorpositive(valueNumber) {
+//     if (valueNumber > 0) {
+//         console.log(`${valueNumber} number is positive` );
+//     }
+//     else if (valueNumber < 0) {
+//         console.log(`${valueNumber} number is negitive` );
+//     }
+//     else {
+//         console.log(`${valueNumber} number is zero` );
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// negativeorpositive(valueNumber)
+
+// ------------------------------------------------------------------
+
+// 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+
+
 function negativeorpositive(valueNumber) {
-    if (valueNumber > 0) {
-        console.log(`${valueNumber} number is positive` );
+    if (valueNumber %5 == 0) {
+        console.log(`${valueNumber} number is divided by 5` );
     }
-    else if (valueNumber < 0) {
-        console.log(`${valueNumber} number is negitive` );
+    else if (valueNumber %11 == 0) {
+        console.log(`${valueNumber} number is divided by 11` );
     }
     else {
-        console.log(`${valueNumber} number is zero` );
+        console.log(`${valueNumber} number is not divided` );
     }
 }
 var valueNumber = prompt("Enter a value");
 negativeorpositive(valueNumber)
 
-// ------------------------------------------------------------------
+// ----------------------------------------------------------------------------
