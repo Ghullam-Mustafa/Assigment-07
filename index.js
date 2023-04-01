@@ -134,19 +134,36 @@
 // -----------------------------------------------------------------------
 
 // 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
-function vowel(valueNumber) {
-    if (valueNumber >= 'a' && 'z' >= valueNumber) {
-        console.log(`${valueNumber} This is alphabet`);
-    }
-    else if (valueNumber > 0 && valueNumber < 9) {
-        console.log(`${valueNumber} This is digits`);
-    }
-    else{
-        console.log(`${valueNumber} This is special charcter`);
-    }
-}
-var valueNumber = prompt("Enter a value");
-vowel(valueNumber)
+// function alpa(valueNumber) {
+//     if (valueNumber >= 'a' && 'z' >= valueNumber) {
+//         console.log(`${valueNumber} This is alphabet`);
+//     }
+//     else if (valueNumber > 0 && valueNumber < 9) {
+//         console.log(`${valueNumber} This is digits`);
+//     }
+//     else{
+//         console.log(`${valueNumber} This is special charcter`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// alpa(valueNumber)
 
 // -----------------------------------------------------------------
 
+// 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+
+function upperlover(valueNumber) {
+    if (valueNumber >= 'A' && 'Z' >= valueNumber) {
+        console.log(`${valueNumber} Upper case alphabet`);
+    }
+    else if (valueNumber >= 'a' && 'z' >= valueNumber) {
+        console.log(`${valueNumber} Lower case alphabet`);
+    }
+    else{
+        console.log(`${valueNumber} This is not alphabet`);
+    }
+}
+var valueNumber = prompt("Enter alphabet");
+upperlover(valueNumber)
+
+// ----------------------------------------------------------------
