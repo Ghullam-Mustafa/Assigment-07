@@ -77,15 +77,29 @@
 // ----------------------------------------------------------------------------
 
 // 5. Write a js program to check whether a number is even or odd.
+// function evenodd(valueNumber) {
+//     if (valueNumber %2 == 0) {
+//         console.log(`${valueNumber} your number is even`);
+//     } else {
+//         console.log(`${valueNumber} your number is odd`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// evenodd(valueNumber)
+
+// ---------------------------------------------------------------------------------------
+
+// 6. Write a js program to check whether a year is leap year or not.
+
 function evenodd(valueNumber) {
-    if (valueNumber %2 == 0) {
-        console.log(`${valueNumber} your number is even`);
+    if (valueNumber %4 == 0) {
+        console.log(`${valueNumber} This year is leap year`);
     } else {
-        console.log(`${valueNumber} your number is odd`);
+        console.log(`${valueNumber} This year is not leap year`);
     }
 }
 var valueNumber = prompt("Enter a value");
 evenodd(valueNumber)
 
-// ---------------------------------------------------------------------------------------
+// ----------------------------------------------------------------------------------------
 
