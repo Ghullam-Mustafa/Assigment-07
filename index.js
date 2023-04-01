@@ -20,20 +20,39 @@
 // 2. Write a js program to find maximum between three numbers.
 //
 
-function maximum(numb1 ,numb2 , numb3) {
-    if (numb1 > numb2 && numb1 > numb3) {
-        console.log(`Your Number1 "${numb1} "is Greater then NUmber2" ${numb2}" and Number3 
-        "${numb3}"`);
+// function maximum(numb1 ,numb2 , numb3) {
+//     if (numb1 > numb2 && numb1 > numb3) {
+//         console.log(`Your Number1 "${numb1} "is Greater then NUmber2" ${numb2}" and Number3 
+//         "${numb3}"`);
+//     }
+//     else if (numb2 > numb3 && numb2 > numb1) {
+//         console.log(`${numb2} is Greater then ${numb1} and ${numb3}`);
+//     }
+//     else{
+//         console.log(`${numb3} is Greater then ${numb1} and ${numb2}`);
+//     }
+// }
+// numb1 = prompt("Enter first value");
+// numb2 = prompt("Enter second value");
+// numb3 = prompt("Enter third value");
+
+// maximum(numb1,numb2,numb3)
+
+// -----------------------------------------------------------------------------------------
+
+// 3.Write a js program to check whether a number is negative, positive or zero.
+function negativeorpositive(valueNumber) {
+    if (valueNumber > 0) {
+        console.log(`${valueNumber} number is positive` );
     }
-    else if (numb2 > numb3 && numb2 > numb1) {
-        console.log(`${numb2} is Greater then ${numb1} and ${numb3}`);
+    else if (valueNumber < 0) {
+        console.log(`${valueNumber} number is negitive` );
     }
-    else{
-        console.log(`${numb3} is Greater then ${numb1} and ${numb2}`);
+    else {
+        console.log(`${valueNumber} number is zero` );
     }
 }
-numb1 = prompt("Enter first value");
-numb2 = prompt("Enter second value");
-numb3 = prompt("Enter third value");
+var valueNumber = prompt("Enter a value");
+negativeorpositive(valueNumber)
 
-maximum(numb1,numb2,numb3)
+// ------------------------------------------------------------------
