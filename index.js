@@ -91,7 +91,7 @@
 
 // 6. Write a js program to check whether a year is leap year or not.
 
-// function evenodd(valueNumber) {
+// function leap(valueNumber) {
 //     if (valueNumber %4 == 0) {
 //         console.log(`${valueNumber} This year is leap year`);
 //     } else {
@@ -99,18 +99,54 @@
 //     }
 // }
 // var valueNumber = prompt("Enter a value");
-// evenodd(valueNumber)
+// leap(valueNumber)
 
 // ----------------------------------------------------------------------------------------
 // 7. Write a js program to check whether a character is alphabet or not.
 
 
-function evenodd(valueNumber) {
-    if (valueNumber >='a' && 'z'>= valueNumber) {
-        console.log(`${valueNumber} This is alphabet chracter`);
-    } else {
-        console.log(`${valueNumber} This is not alphabet chracter`);
+// function alphaet(valueNumber) {
+//     if (valueNumber >='a' && 'z'>= valueNumber) {
+//         console.log(`${valueNumber} This is alphabet chracter`);
+//     } else {
+//         console.log(`${valueNumber} This is not alphabet chracter`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// aplhabet(valueNumber)
+
+// ---------------------------------------------------------------------------------------------
+
+// 8. Write a js program to input any alphabet and check whether it is vowel or consonant.
+
+// function vowel(valueNumber) {
+//     if (valueNumber == 'a' || valueNumber == 'e'|| valueNumber == 'i'|| valueNumber == 'o' || valueNumber == 'u') {
+//         console.log(`${valueNumber} This is vowel`);
+//     }
+  
+//      else {
+//         console.log(`${valueNumber} This is not vowel`);
+//     }
+// }
+// var valueNumber = prompt("Enter a value");
+// vowel(valueNumber)
+
+// -----------------------------------------------------------------------
+
+// 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+function vowel(valueNumber) {
+    if (valueNumber >= 'a' && 'z' >= valueNumber) {
+        console.log(`${valueNumber} This is alphabet`);
+    }
+    else if (valueNumber > 0 && valueNumber < 9) {
+        console.log(`${valueNumber} This is digits`);
+    }
+    else{
+        console.log(`${valueNumber} This is special charcter`);
     }
 }
 var valueNumber = prompt("Enter a value");
-evenodd(valueNumber)
+vowel(valueNumber)
+
+// -----------------------------------------------------------------
+
