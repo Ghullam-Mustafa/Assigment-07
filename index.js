@@ -287,3 +287,21 @@
 
 
 // ---------------------------------------------------------------------------------------------------
+
+// 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+
+
+// function triangle() {
+//    var leftSide =+ prompt("Enter left side ") ; 
+//    var rightSide =+ prompt("Enter right side ") ; 
+//    var baseSide =+ prompt("Enter base side ") ; 
+//    if (leftSide + rightSide + baseSide == 180) {
+//     console.log("thats a triangle");
+//    }
+//    else {
+//     console.log("it is not a triangle");
+//    }
+// }
+// triangle()
+
+// ---------------------------------------------------------------------
