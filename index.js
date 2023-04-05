@@ -171,56 +171,119 @@
 // 11. Write a js program to input week number and print week day.
 
 
-function week(daysWeek) {
-   if (daysWeek == 1) {
-    console.log("Monday");
-   }
-   else if (daysWeek == 2){
-    console.log("Tuesday");
-   }
-   else if (daysWeek == 3){
-    console.log("Wednesday");
-   }
-   else if (daysWeek == 4){
-    console.log("Thursday");
-   }
-   else if (daysWeek == 5){
-    console.log("Friday");
-   }
-   else if (daysWeek == 6){
-    console.log("Saturday");
-   }
-   else if (daysWeek == 7){
-    console.log("Sunday");
-   }
-   else {
-    console.log("Write a digit between 1 to 7");
-   }
-}
-var daysWeek = prompt("Enter who's week");
-week(daysWeek)
+// function week(daysWeek) {
+//    if (daysWeek == 1) {
+//     console.log("Monday");
+//    }
+//    else if (daysWeek == 2){
+//     console.log("Tuesday");
+//    }
+//    else if (daysWeek == 3){
+//     console.log("Wednesday");
+//    }
+//    else if (daysWeek == 4){
+//     console.log("Thursday");
+//    }
+//    else if (daysWeek == 5){
+//     console.log("Friday");
+//    }
+//    else if (daysWeek == 6){
+//     console.log("Saturday");
+//    }
+//    else if (daysWeek == 7){
+//     console.log("Sunday");
+//    }
+//    else {
+//     console.log("Write a digit between 1 to 7");
+//    }
+// }
+// var daysWeek = prompt("Enter who's week");
+// week(daysWeek)
 
 // --------------------------------------------------------------------------
 
 // 12. Write a js program to input month number and print number of days in that month.
 
-// function mounth(monthDay) {
-//     var totalDays = (monthDay * 30);
-//     console.log(`This ${monthDay} month has total days = ${totalDays} `);
+// function monthName(month){
+
+//     var result = month
+    
+//     if(result == "january" || result == "January"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "february" || result == "February"){
+//        console.log(`${result} have 28 Days`)
+//     }
+//     else if(result == "march" || result == "March"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "april" || result == "April"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "may" || result == "May"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "june" || result == "June"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "july" || result == "July"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "august" || result == "August"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "september" || result == "September"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "october" || result == "October"){
+//        console.log(`${result} have 30 Days`)
+//     }
+//     else if(result == "november" || result == "November"){
+//        console.log(`${result} have 31 Days`)
+//     }
+//     else if(result == "december" || result == "December"){
+//        console.log(`${result} have 30 Days`)
+//     }else{
+//         console.log('Please Enter Correctly! ')
+//     }
+
 // }
-// var monthDay = prompt("Enter months");
-// mounth(monthDay)
+
+// var getMonthName = prompt('Enter Any Month name to See Number of Days!')
+// monthName(getMonthName)
 
 // --------------------------------------------------------------------------------------
 
 // 13. Write a js program to count total number of notes in given amount.
 
-// function count(valueA,valueB,valueC) {
-//     var oneAmount = ( valueA + valueB);
-//     var totalAmount = ( oneAmount + valueC);
-//     console.log(`First value ${valueA} second is ${valueB} and third is ${valueC} given amount is this  = ${totalAmount}`);
+// function total() {
+//     var totalAmount =+ prompt("enter a number in 100");
+//     var totalAmounts = parseInt(totalAmount/100);
+//     if (totalAmounts) {
+//         console.log(`${totalAmount} Rs have ${totalAmounts}`);
+//     }
+//     else{
+//         console.log("enter valid number");
+//     }
 // }
-// var valueA =+ prompt("Enter first value");
-// var valueB =+ prompt("Enter second value");
-// var valueC =+ prompt("Enter four value");
-// count(valueA,valueB,valueC)
+
+// total()
+
+
+// --------------------------------------------------------------------------------------------
+
+// 14 . Write a js program to input angles of a triangle and check whether triangle is valid or not.
+
+// function triangle() {
+//     var angles =+ prompt("Who many angles in triangles");
+//     if (angles == 3) {
+//         console.log(`${angles} thats a triangle`);
+//     }
+//     else {
+//         console.log("there is not triangle");
+//     }
+// }
+// triangle()
+
+
+// ---------------------------------------------------------------------------------------------------
