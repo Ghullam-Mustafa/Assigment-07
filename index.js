@@ -171,22 +171,56 @@
 // 11. Write a js program to input week number and print week day.
 
 
-// function week(daysWeek) {
-//     var totalDays = (daysWeek * 7);
-//     console.log(`This  ${daysWeek} week has ${totalDays} days`);
-// }
-// var daysWeek = prompt("Enter who's week");
-// week(daysWeek)
+function week(daysWeek) {
+   if (daysWeek == 1) {
+    console.log("Monday");
+   }
+   else if (daysWeek == 2){
+    console.log("Tuesday");
+   }
+   else if (daysWeek == 3){
+    console.log("Wednesday");
+   }
+   else if (daysWeek == 4){
+    console.log("Thursday");
+   }
+   else if (daysWeek == 5){
+    console.log("Friday");
+   }
+   else if (daysWeek == 6){
+    console.log("Saturday");
+   }
+   else if (daysWeek == 7){
+    console.log("Sunday");
+   }
+   else {
+    console.log("Write a digit between 1 to 7");
+   }
+}
+var daysWeek = prompt("Enter who's week");
+week(daysWeek)
 
 // --------------------------------------------------------------------------
 
 // 12. Write a js program to input month number and print number of days in that month.
 
-function mounth(monthDay) {
-    var totalDays = (monthDay * 30);
-    console.log(`This ${monthDay} month has total days = ${totalDays} `);
-}
-var monthDay = prompt("Enter months");
-mounth(monthDay)
+// function mounth(monthDay) {
+//     var totalDays = (monthDay * 30);
+//     console.log(`This ${monthDay} month has total days = ${totalDays} `);
+// }
+// var monthDay = prompt("Enter months");
+// mounth(monthDay)
 
 // --------------------------------------------------------------------------------------
+
+// 13. Write a js program to count total number of notes in given amount.
+
+// function count(valueA,valueB,valueC) {
+//     var oneAmount = ( valueA + valueB);
+//     var totalAmount = ( oneAmount + valueC);
+//     console.log(`First value ${valueA} second is ${valueB} and third is ${valueC} given amount is this  = ${totalAmount}`);
+// }
+// var valueA =+ prompt("Enter first value");
+// var valueB =+ prompt("Enter second value");
+// var valueC =+ prompt("Enter four value");
+// count(valueA,valueB,valueC)
