@@ -305,3 +305,24 @@
 // triangle()
 
 // ---------------------------------------------------------------------
+
+// 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+function weathertriangle() {
+    if (rightSide == leftSide && rightSide == baseSide && leftSide == rightSide && leftSide == baseSide &&  baseSide == rightSide && baseSide == leftSide) {
+        console.log("the triangle is equilateral");
+    }
+    else if (rightSide == 90 || leftSide == 90 ) {
+        console.log(`the right side value is  ${rightSide} and left side value is this ${leftSide} this is equilateral triangle `);
+    }
+    else{
+        console.log('Please Enter Same Values to Create "equilateral triangle"');
+        console.log('Please Enter one side 90  to Create "right-angled triangle"');
+    }
+    
+}
+
+var rightSide =+ prompt("Enter right side");
+var leftSide =+ prompt("Enter left side");
+var baseSide =+ prompt("Enter base side");
+weathertriangle()
