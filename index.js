@@ -345,7 +345,10 @@ function calculatGetMarks(physics, chemistry, biology, math, computer) {
 
     var totalMarks = physicsMarks + chemistryMarks + biologyMarks + mathMarks + computerMarks ;
     var obtainedMarks = (totalMarks / 500) * 100;
-    if (obtainedMarks >= 90) {
+    if (obtainedMarks > 500) {
+        console.log("Enter correct number");
+    }
+    else if (obtainedMarks >= 90) {
         console.log(`Your total marks ${totalMarks}`);
         console.log(`Yuor obtained marks ${obtainedMarks}%`);
         console.log("Your grade is A");
